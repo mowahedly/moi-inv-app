@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="nameSearch">الاسم / الهوية / رخصة القيادة</string>
+    <string name="sB">رقم اللوحة / رقم الهيكل</string>
+    <string name="searchE">بحث</string>
+    <string name="peopleImage">people</string>
+    <string name="carText">المركبات</string>
+    <string name="peopleText">الأشخاص</string>
+    <string name="lableSelect">الرجاء الإختيار</string>
+    <string name="carLabel">vechile</string>
+    <string name="eHint">كلمة السر</string>
+    <string name="bEnter">دخول</string>
+    <string name="bExit">خروج</string>
+    <string name="userName">اسم المستخدم</string>
+    <string name="helloLabel">مرحبا بك مجدداُ!</string>
+    <string name="eEnter">دخول</string>
+    <string name="todo">TODO</string>
+</resources>

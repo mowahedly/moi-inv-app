@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#54326ACF"
+    android:backgroundTint="#8EB7D8"
+    tools:context=".peopleData">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#235993"
+        android:backgroundTint="#8EB7D8"
+        tools:context=".peopleData"
+        tools:ignore="UnusedAttribute">
+
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="411dp"
+            android:layout_height="58dp"
+            android:background="#CDC9C9"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TableLayout
+            android:layout_width="330dp"
+            android:layout_height="642dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="116dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+
+                    android:id="@+id/p_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="28dp"
+                    android:gravity="center_horizontal"
+                    android:text="رقم الهوية"
+                    android:textAlignment="center"
+                    android:textColor="#EC2424"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/textView35"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.772"
+                    app:layout_constraintStart_toEndOf="@+id/textView38"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:layout_width="216dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="72dp"
+                    android:layout_marginRight="72dp"
+                    android:layout_marginBottom="28dp"
+                    android:gravity="center_horizontal"
+                    android:text="نوع البلاغ"
+                    android:textAlignment="center"
+                    android:textColor="#050404"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow android:layout_height="100sp">
+
+                <TextView
+
+                    android:id="@+id/p_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="28dp"
+                    android:text="رقم الهوية"
+                    android:textAlignment="center"
+                    android:textColor="#050404"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/textView35"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.772"
+                    app:layout_constraintStart_toEndOf="@+id/textView38"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginRight="60dp"
+                    android:layout_marginBottom="28dp"
+                    android:text="الإسم"
+                    android:textAlignment="center"
+                    android:textColor="#050404"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:layout_height="100sp">
+
+                <TextView
+
+                    android:id="@+id/p_id_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="28dp"
+                    android:text="رقم الهوية"
+                    android:textAlignment="center"
+                    android:textColor="#177717"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/textView35"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.772"
+                    app:layout_constraintStart_toEndOf="@+id/textView38" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="28dp"
+                    android:text="إثبات الهوية"
+                    android:textAlignment="center"
+                    android:textColor="#050404"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:layout_height="100sp">
+
+                <TextView
+
+                    android:id="@+id/p_nuck_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="28dp"
+                    android:gravity="center_horizontal"
+                    android:text="رقم الهوية"
+                    android:textAlignment="center"
+                    android:textColor="#050404"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/textView35"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.772"
+                    app:layout_constraintStart_toEndOf="@+id/textView38" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="28dp"
+                    android:text="إسم الشهرة"
+                    android:textAlignment="center"
+                    android:textColor="#050404"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:layout_height="100sp">
+
+                <TextView
+
+                    android:id="@+id/p_mother_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="28dp"
+                    android:text="رقم الهوية"
+                    android:textAlignment="center"
+                    android:textColor="#050404"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/textView35"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.772"
+                    app:layout_constraintStart_toEndOf="@+id/textView38"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginBottom="28dp"
+                    android:text="إسم الأم"
+                    android:textAlignment="center"
+                    android:textColor="#050404"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:layout_height="100sp">
+
+                <TextView
+
+                    android:id="@+id/p_birth_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="28dp"
+                    android:text="رقم الهوية"
+                    android:textAlignment="center"
+                    android:textColor="#050404"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/textView35"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.772"
+                    app:layout_constraintStart_toEndOf="@+id/textView38"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginBottom="28dp"
+                    android:text="المواليد"
+                    android:textAlignment="center"
+                    android:textColor="#050404"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:layout_height="100sp">
+
+                <TextView
+
+                    android:id="@+id/p_nationality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="28dp"
+                    android:text="رقم الهوية"
+                    android:textAlignment="center"
+                    android:textColor="#050404"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/textView35"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.772"
+                    app:layout_constraintStart_toEndOf="@+id/textView38"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="28dp"
+                    android:text="الجنسية"
+                    android:textAlignment="center"
+                    android:textColor="#050404"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/p_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="28dp"
+                    android:text="رقم الهوية"
+                    android:textAlignment="center"
+                    android:textColor="#050404"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/textView35"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.772"
+                    app:layout_constraintStart_toEndOf="@+id/textView38"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+
+                    android:layout_width="142dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="116dp"
+                    android:layout_marginRight="116dp"
+                    android:layout_marginBottom="28dp"
+                    android:text="التفاصيل"
+                    android:textAlignment="center"
+                    android:textColor="#050404"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:layout_height="100sp">
+
+                <TextView
+
+                    android:id="@+id/p_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="28dp"
+                    android:text="رقم الهوية"
+                    android:textAlignment="center"
+                    android:textColor="#050404"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/textView35"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.772"
+                    app:layout_constraintStart_toEndOf="@+id/textView38"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="68dp"
+                    android:layout_marginRight="68dp"
+                    android:layout_marginBottom="28dp"
+                    android:text="تاريخ البلاغ"
+                    android:textAlignment="center"
+                    android:textColor="#050404"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+
+            android:id="@+id/p_type2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="بيانات الأفراد"
+            android:textAlignment="center"
+            android:textColor="#050404"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/view3"
+            app:layout_constraintEnd_toEndOf="@+id/view3"
+            app:layout_constraintStart_toStartOf="@+id/view3"
+            app:layout_constraintTop_toTopOf="@+id/view3"
+            app:layout_constraintVertical_bias="1.0"
+            tools:ignore="RtlCompat" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
